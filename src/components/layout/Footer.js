@@ -8,13 +8,13 @@ function Footer() {
         <footer className={styles.footer}> 
             <ul className={styles.social_list}>
                 <li>
-                    <FaGithub />
+                    <a href="https://github.com/Biganao" target="blank"> <FaGithub /> </a>
                 </li>
                 <li>
-                    <FaInstagram />
+                    <a href="https://www.instagram.com/matheuzinho_filipe/" target="blank"> <FaInstagram /> </a>
                 </li>
                 <li>
-                    <FaLinkedin />
+                    <a href="https://www.linkedin.com/in/matheus-filipe-946430237/" target="blank"> <FaLinkedin /> </a>
                 </li>
             </ul>
             <p className={styles.copy_right}>
