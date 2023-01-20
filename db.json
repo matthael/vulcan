@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Projeto Atualizado",
-      "budget": "25000",
+      "budget": "2500",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
