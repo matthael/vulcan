@@ -41,8 +41,13 @@
   transition: 0.5s;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   color: #e14d34;
+}
+
+.btn:focus {
+  outline-color: #e14d34;
 }
 
 .project_info {
