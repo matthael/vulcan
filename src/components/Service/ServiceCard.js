@@ -1,8 +1,11 @@
 import { BsFillTrashFill } from "react-icons/bs";
 import styles from "../Project/Card.module.css";
 
-function ServiceCard({ id, name, cost, description, key, handleRemove }) {
-  const remove = (e) => {};
+function ServiceCard({ id, name, cost, description, handleRemove }) {
+  const remove = (e) => {
+    e.preventDefault();
+    handleRemove(id, cost);
+  };
 
   return (
     <div className={styles.project_card}>
