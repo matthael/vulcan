@@ -1,36 +1,62 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-import styles from './NavBar.module.css'
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 
-import Container from './Container';
-import logo from '../../Img/vulcan_logo.png';
+import styles from "./NavBar.module.css";
+
+// import Container from './Container';
+import logo from "../../Img/vulcan_logo.png";
 
 function NavBar() {
+  return (
+    <Navbar collapseOnSelect expand="lg" id={styles.navbar}>
+      <Container>
+        <Link to="/">
+          <img src={logo} alt="Vulcan" className={styles.logo} />
+        </Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <ul className={styles.list}>
+            <li className={styles.item}>
+              <Link to="/"> Home </Link>
+            </li>
+            <li className={styles.item}>
+              <Link to="/projs"> Projetos </Link>
+            </li>
+            <li className={styles.item}>
+              <Link to="/about"> Sobre </Link>
+            </li>
+            <li className={styles.item}>
+              <Link to="/cont"> Contato </Link>
+            </li>
+          </ul>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
-    return(
-        <nav className={styles.navbar}>
-            <Container>
-                <Link to="/">
-                     <img src={logo} alt="Vulcan" className={styles.logo} />
-                </Link>
-                    <ul className={styles.list}>
-                        <li className={styles.item}>
-                            <Link to="/"> Home </Link>
-                        </li>
-                        <li className={styles.item}>
-                            <Link to="/projs"> Projetos </Link>
-                        </li>
-                        <li className={styles.item}>
-                            <Link to="/about"> Sobre </Link>
-                        </li>   
-                        <li className={styles.item}>
-                            <Link to="/cont"> Contato </Link>
-                        </li>
-                    </ul>
-            </Container>
-        </nav>
-    )
-
+    // <nav className={styles.navbar}>
+    //     <Container>
+    //         <Link to="/">
+    //              <img src={logo} alt="Vulcan" className={styles.logo} />
+    //         </Link>
+    //             <ul className={styles.list}>
+    //                 <li className={styles.item}>
+    //                     <Link to="/"> Home </Link>
+    //                 </li>
+    //                 <li className={styles.item}>
+    //                     <Link to="/projs"> Projetos </Link>
+    //                 </li>
+    //                 <li className={styles.item}>
+    //                     <Link to="/about"> Sobre </Link>
+    //                 </li>
+    //                 <li className={styles.item}>
+    //                     <Link to="/cont"> Contato </Link>
+    //                 </li>
+    //             </ul>
+    //     </Container>
+    // </nav>
+  );
 }
 
-export default NavBar
+export default NavBar;
