@@ -1,4 +1,6 @@
-import { BsFillTrashFill } from "react-icons/bs";
+import { BsFillTrashFill, BsPencil } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
 import styles from "../Project/Card.module.css";
 
 function ServiceCard({ id, name, cost, description, handleRemove }) {
@@ -15,6 +17,9 @@ function ServiceCard({ id, name, cost, description, handleRemove }) {
       </p>
       <p> {description} </p>
       <div className={styles.project_card_actions}>
+        <Link to={`/services/${id}`}>
+          <BsPencil /> Editar
+        </Link>
         <button onClick={remove}>
           <BsFillTrashFill />
           Excluir

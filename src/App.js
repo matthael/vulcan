@@ -6,6 +6,7 @@ import Contact from "./components/Pages/Contact";
 import NewProj from "./components/Pages/NewProj";
 import Projects from "./components/Pages/Projects";
 import Project from "./components/Pages/Project";
+import Service from "./components/Pages/Service";
 
 import Container from "./components/layout/Container";
 import NavBar from "./components/layout/NavBar";
@@ -18,12 +19,13 @@ function App() {
         <NavBar />
         <Container customClass="minH">
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/projs" element={<Projects />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/cont" element={<Contact />} />
-            <Route exact path="/newproj" element={<NewProj />} />
-            <Route exact path="/project/:id" element={<Project />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/projs" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/cont" element={<Contact />} />
+            <Route path="/newproj" element={<NewProj />} />
+            <Route path="/project/:id" element={<Project />} />
+            <Route path="/services/:id" element={<Service />} />
           </Routes>
         </Container>
         <Footer />
