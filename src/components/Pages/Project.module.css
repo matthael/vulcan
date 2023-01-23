@@ -51,5 +51,12 @@
 }
 
 .project_info {
+  margin-top: 0.8em;
   width: 100%;
+}
+
+@media (max-width: 645px) {
+  .btn {
+    margin: 0.8em 0;
+  }
 }
