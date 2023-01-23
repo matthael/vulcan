@@ -1,0 +1,19 @@
+.btn {
+  background-color: #222;
+  color: #fff;
+  padding: 0.7em 1.2em;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2em;
+  transition: 0.5s;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #e14d34;
+}
+
+.btn:focus {
+  outline-color: #e14d34;
+}

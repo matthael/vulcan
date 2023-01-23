@@ -1,0 +1,62 @@
+.project_details {
+  width: 100%;
+  padding: 2em;
+}
+
+.project_details h1,
+.project_details h2,
+.project_details p {
+  margin-bottom: 0.5em;
+}
+
+.project_details h1 {
+  background-color: #222;
+  color: #e14d34;
+  padding: 0.4em;
+}
+
+.project_details span {
+  font-weight: bold;
+}
+
+.details_container,
+.service_form_container {
+  border-bottom: 1px solid #7a7a7a;
+  margin-bottom: 1.2em;
+  padding-bottom: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #222;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 0.2em;
+  max-height: 40px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #e14d34;
+}
+
+.btn:focus {
+  outline-color: #e14d34;
+}
+
+.project_info {
+  margin-top: 0.8em;
+  width: 100%;
+}
+
+@media (max-width: 645px) {
+  .btn {
+    margin: 0.8em 0;
+  }
+}
