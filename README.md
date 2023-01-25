@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1> Vulcan </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+| [<img src="https://user-images.githubusercontent.com/103335886/214473563-53038c2f-f3fa-4332-8702-40fc40e879ec.png" width=170><br><sub>@Vulcan</sub>](https://vulcan-projects.vercel.app) |
+| :-------------------------------------------------------------------------------------------------------------------: |
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+## Sobre 
 
-### `npm start`
+<div align="center">
+  <h3> "Vulcan, pronto para usar de suas benções divinas para criar o seu melhor projeto". </h3><br>
+  <img src="https://user-images.githubusercontent.com/103335886/214474578-a4ac43aa-e982-4ed5-8e7f-8761489dddc3.png" width=600 height="380" />
+    <h5> Pagina de boas-vindas </h5>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/103335886/214482675-471fcc8b-2b24-4efc-a6c9-0609fc7cb9dd.png" width=600 height="380" />
+    <h5> Pagina de edição do projeto </h5>
+</div>
 
-### `npm test`
+## 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Quem nunca ja teve problemas com contabilidade? não saber gerir o proprio orçamento com os custos de futuros serviços ? com o Vulcan não existe esse problema! 
 
-### `npm run build`
+Vulcan e um aplicação web de gerenciamento de projetos tendo como sua principal funcionalidade a facil organização, criação e edição dos mesmos. pois de forma automatizada Vulcan possui a capacidade de criar projetos e adcionar serviços para o usuario ter a noção de quanto ira gastar de seu orçamento inicial. </br></br>
+ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Oque vc esta esperando? comece agora a desfruta da forja de vulcan e crie o seu melhor! clique <a href="https://vulcan-projects.vercel.app"> aqui </a> e deixe a imaginação ser o limite!  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologias usadas
 
-### `npm run eject`
+ * React
+ * Node
+ * Json-server
+ * JavaScript
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Coma rodar Localmente ?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Dependências globais
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Você precisa ter instalado as dependencias:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js LTS v16 (ou qualquer versão superior)
 
-## Learn More
+### Comandos locais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Não se esqueça de instalar as dependências locais do projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+Para rodar o projeto localmente, basta rodar os comandos abaixo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Lembre-se tambem de usar o comando a seguir para ativar o json-server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run backend
+```
 
-### Making a Progressive Web App
+# Autor
+<div align="center">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| [<img src="https://github.com/Biganao.png?size=115" width=115><br><sub>@Biganao</sub>](https://github.com/Biganao) |
+| :-------------------------------------------------------------------------------------------------------------------: |
 
-### Advanced Configuration
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Licença
+[MIT](./LICENSE)
