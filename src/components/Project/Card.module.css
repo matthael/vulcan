@@ -103,3 +103,15 @@
     width: 80%;
   }
 }
+
+@media (min-width: 685px) {
+  .project_card {
+    width: 45%;
+  }
+}
+
+@media (min-width: 990px) {
+  .project_card {
+    width: 30%;
+  }
+}

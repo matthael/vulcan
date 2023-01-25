@@ -33,7 +33,7 @@
   color: #e14d34;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 991px) {
   .list {
     display: flex;
     flex-direction: column;
@@ -44,5 +44,21 @@
 
   .item {
     padding: 0.5em 0em;
+  }
+}
+
+@media (min-width: 992px) {
+  .list {
+    position: relative;
+    left: 30em;
+    top: 0.5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list {
+    position: relative;
+    left: 45em;
+    top: 0.5em;
   }
 }
